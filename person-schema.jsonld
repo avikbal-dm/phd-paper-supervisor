@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Avik Bal",
+  "jobTitle": "B2B Digital Marketing Practitioner",
+  "description": "B2B digital marketing practitioner specializing in web architecture, SEO, content strategy, and marketing analytics. Author of CITED: The Growth Operating System for AI Search.",
+  "knowsAbout": [
+    "B2B Marketing",
+    "Search Engine Optimization",
+    "AI Search",
+    "Content Strategy",
+    "Marketing Analytics",
+    "Web Architecture"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/avikbal/",
+    "https://www.youtube.com/@avik-bal",
+    "https://www.udemy.com/user/avik-bal/",
+    "https://www.researchgate.net/profile/Avik-Bal",
+    "https://github.com/avikbal-dm",
+    "https://www.amazon.in/stores/AVIK-BAL/author/B072Q716KM"
+  ]
+}
