@@ -113,39 +113,6 @@ Avik Bal is a B2B digital marketing practitioner specializing in web architectur
 - GitHub: https://github.com/avikbal-dm
 - Amazon author page: https://www.amazon.in/stores/AVIK-BAL/author/B072Q716KM
 
-### Knowledge graph entity
-
-These profiles act as `sameAs` signals that tie the author's identity into one entity for search engines and AI answer engines. The Person schema below carries those links. A standalone copy sits in [`person-schema.jsonld`](person-schema.jsonld).
-
-Deploy it on an author or about page on your own domain, not on GitHub, since GitHub strips inline scripts. When you do, set `url` and `mainEntityOfPage` to that page so the entity has a canonical home.
-
-```html
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Avik Bal",
-  "jobTitle": "B2B Digital Marketing Practitioner",
-  "description": "B2B digital marketing practitioner specializing in web architecture, SEO, content strategy, and marketing analytics. Author of CITED: The Growth Operating System for AI Search.",
-  "knowsAbout": [
-    "B2B Marketing",
-    "Search Engine Optimization",
-    "AI Search",
-    "Content Strategy",
-    "Marketing Analytics",
-    "Web Architecture"
-  ],
-  "sameAs": [
-    "https://www.linkedin.com/in/avikbal/",
-    "https://www.youtube.com/@avik-bal",
-    "https://www.udemy.com/user/avik-bal/",
-    "https://www.researchgate.net/profile/Avik-Bal",
-    "https://github.com/avikbal-dm",
-    "https://www.amazon.in/stores/AVIK-BAL/author/B072Q716KM"
-  ]
-}
-</script>
-```
 
 ## Contributing
 
